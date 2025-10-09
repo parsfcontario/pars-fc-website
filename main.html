@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pars Football Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .tab-button.active {
+            border-bottom: 2px solid #1c1917;
+        }
+    </style>
+</head>
+<body class="bg-white text-stone-900">
+
+    <div class="container mx-auto max-w-7xl px-4 py-8 md:py-16">
+
+        <!-- Header and Navigation -->
+        <header class="text-center mb-12">
+            <img src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/PARSFC-MainLogoHQ-Inverted-Circle2.png" alt="Pars FC Logo" class="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-4 rounded-full">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-stone-900 mb-2">
+                PARS Football Club
+            </h1>
+        </header>
+
+        <!-- New Navigation Tab Style -->
+        <nav class="flex justify-center mb-12 border-b border-stone-300">
+            <button class="tab-button px-6 py-3 font-semibold text-lg text-stone-600 hover:text-stone-900 transition-all duration-300" data-tab="history">History</button>
+            <button class="tab-button px-6 py-3 font-semibold text-lg text-stone-600 hover:text-stone-900 transition-all duration-300" data-tab="sponsorship">Sponsorship</button>
+            <button class="tab-button px-6 py-3 font-semibold text-lg text-stone-600 hover:text-stone-900 transition-all duration-300" data-tab="contact">Contact</button>
+        </nav>
+
+        <!-- Tab Content -->
+        <main>
+            <!-- History Section -->
+            <section id="history" class="tab-content active p-6 md:p-12 rounded-xl bg-white shadow-lg">
+                <h3 class="text-2xl font-bold mb-6 text-center">Our Club's Legacy ⚽</h3>
+                <ul class="text-stone-600 leading-relaxed text-lg list-none space-y-2">
+                    <li><span class="font-semibold text-stone-900">📅 Established:</span> 2000</li>
+                    <li><span class="font-semibold text-stone-900">🎯 Mission:</span> Provide a high-level soccer pathway for Iranian youth in the Greater Toronto Area (GTA).</li>
+                    <li><span class="font-semibold text-stone-900">💪 Impact:</span> Fosters confidence, discipline, and a strong athletic mindset.</li>
+                    <li><span class="font-semibold text-stone-900">🏠 Community Focus:</span> Proudly serving the Iranian community in Richmond Hill for over two decades.</li>
+                    <li><span class="font-semibold text-stone-900">⭐ Unique Position:</span> The only competitive Iranian club in Ontario.</li>
+                    <li><span class="font-semibold text-stone-900">➡️ Player Pathway:</span> Offers a complete development program from U10 grassroots to the Men's Provincial League.</li>
+                    <li><span class="font-semibold text-stone-900">🤝 Notable Contributions:</span> Coached by former Iranian Premier League (IPL) players who immigrated to Canada.</li>
+                </ul>
+
+                <div class="mt-12">
+                    <h3 class="text-2xl font-bold mb-6 text-center">Provincial Men's Team</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8">
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2025_season.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2025_season.jpg" alt="Pars FC 2025 Team">
+                            <p class="text-center font-semibold mt-2">2025</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2023_season.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2023_season.jpg" alt="Pars FC 2023 Team">
+                            <p class="text-center font-semibold mt-2">2023</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/20018_season.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/20018_season.jpg" alt="Pars FC 2018 Team">
+                            <p class="text-center font-semibold mt-2">2018</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2014_season.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2014_season.jpg" alt="Pars FC 2014 Team">
+                            <p class="text-center font-semibold mt-2">2014</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2007_season.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2007_season.jpg" alt="Pars FC 2007 Team">
+                            <p class="text-center font-semibold mt-2">2007</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2000_seasons.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/2000_seasons.jpg" alt="Pars FC 2000 Team">
+                            <p class="text-center font-semibold mt-2">2000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12">
+                    <h3 class="text-2xl font-bold mb-6 text-center">Youth Grassroots Soccer</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8">
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under17.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under17.jpg" alt="Pars FC U17 Squad">
+                            <p class="text-center font-semibold mt-2">U17</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under14.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under14.jpg" alt="Pars FC U14 Squad">
+                            <p class="text-center font-semibold mt-2">U14</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under12.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under12.jpg" alt="Pars FC U12 Squad">
+                            <p class="text-center font-semibold mt-2">U12</p>
+                        </div>
+                        <div class="rounded-xl overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+                            <img class="image-gallery-item cursor-pointer w-full h-auto object-cover" data-image-url="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under11.jpg" src="https://raw.githubusercontent.com/parsfcontario/pars-fc-website/refs/heads/main/under11.jpg" alt="Pars FC U11 Squad">
+                            <p class="text-center font-semibold mt-2">U11</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sponsorship Section -->
+            <section id="sponsorship" class="tab-content p-6 md:p-12 rounded-xl bg-white shadow-lg">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-8">Invest in Our Legacy</h2>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
+                    <!-- Gold Package -->
+                    <div class="bg-stone-200 p-8 rounded-xl shadow-xl border-t-8 border-yellow-400">
+                        <div class="flex items-center justify-center mb-6">
+                            <!-- Gold Graphic -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-yellow-500 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="2" width="18" height="20" rx="2" ry="2"></rect>
+                                <path d="M12 18V22"></path>
+                                <path d="M7 22h10"></path>
+                                <path d="M7 6h10"></path>
+                                <path d="M7 12h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl md:text-2xl font-bold text-center mb-2 text-stone-900">Gold Partnership</h3>
+                        <p class="text-sm font-medium text-center text-stone-600 mb-6">$5,000</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-stone-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                                Monthly Social Media Posts & Stories
+                            </li>
+                            <li class="flex items-center text-stone-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 11a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v4zM2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0z"></path></svg>
+                                Sponsor Logo on Home & Away Jerseys
+                            </li>
+                            <li class="flex items-center text-stone-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                                Branding & Ads on Video Highlights
+                            </li>
+                            <li class="flex items-center text-stone-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                                Custom-Engraved Appreciation Plaque
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Silver Package -->
+                    <div class="bg-stone-200 p-8 rounded-xl shadow-xl border-t-8 border-stone-400">
+                        <div class="flex items-center justify-center mb-6">
+                            <!-- Silver Graphic -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-stone-500 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="2" width="18" height="20" rx="2" ry="2"></rect>
+                                <path d="M12 18V22"></path>
+                                <path d="M7 22h10"></path>
+                                <path d="M7 6h10"></path>
+                                <path d="M7 12h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl md:text-2xl font-bold text-center mb-2 text-stone-900">Silver Partnership</h3>
+                        <p class="text-sm font-medium text-center text-stone-600 mb-6">$3,000</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-stone-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-stone-500 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                                Monthly Social Media Posts & Stories
+                            </li>
+                            <li class="flex items-center text-stone-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-stone-500 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 11a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v4zM2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0z"></path></svg>
+                                Sponsor Logo on Home Jersey
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="tab-content p-6 md:p-12 rounded-xl bg-white shadow-lg">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-6">Get In Touch</h2>
+                <div class="space-y-6">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-stone-900 mr-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2 2A15.09 15.09 0 0 1 2 4a2 2 0 0 1 2-2h3l3.5 7L7 11.5a10 10 0 0 0 5.5 5.5l2.5-2.5z"></path>
+                        </svg>
+                        <a href="tel:16472802930" class="text-lg md:text-xl font-medium text-stone-800 hover:underline transition duration-300">1-647-280-2930</a>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-stone-900 mr-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+                            <path d="M22 6L12 13 2 6"></path>
+                        </svg>
+                        <a href="mailto:pars.fc.ontario@gmail.com" class="text-lg md:text-xl font-medium text-stone-800 hover:underline transition duration-300">pars.fc.ontario@gmail.com</a>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-stone-900 mr-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        <a href="https://www.instagram.com/parsfootballclub/?hl=en" target="_blank" class="text-lg md:text-xl font-medium text-stone-800 hover:underline transition duration-300">@parsfootballclub</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('.tab-button');
+            const contents = document.querySelectorAll('.tab-content');
+
+            const showTab = (tabId) => {
+                contents.forEach(content => {
+                    content.classList.remove('active');
+                });
+                tabs.forEach(tab => {
+                    tab.classList.remove('active', 'text-stone-900');
+                    tab.classList.add('text-stone-600');
+                });
+
+                const selectedContent = document.getElementById(tabId);
+                const selectedTab = document.querySelector(`.tab-button[data-tab="${tabId}"]`);
+
+                if (selectedContent) {
+                    selectedContent.classList.add('active');
+                    selectedTab.classList.add('active', 'text-stone-900');
+                    selectedTab.classList.remove('text-stone-600');
+                }
+            };
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    showTab(tab.dataset.tab);
+                });
+            });
+
+            // Show the first tab by default
+            showTab('history');
+            
+            // Image gallery modal logic
+            const galleryItems = document.querySelectorAll('.image-gallery-item');
+            galleryItems.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    const imageUrl = e.target.getAttribute('data-image-url');
+                    if (imageUrl) {
+                        // Create the modal overlay
+                        const modalOverlay = document.createElement('div');
+                        modalOverlay.className = 'fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50 transition-opacity duration-300';
+                        modalOverlay.innerHTML = `
+                            <img src="${imageUrl}" class="max-w-[95%] max-h-[95%] rounded-lg shadow-2xl">
+                        `;
+                        document.body.appendChild(modalOverlay);
+
+                        // Close the modal when clicking on the overlay
+                        modalOverlay.addEventListener('click', () => {
+                            modalOverlay.remove();
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
